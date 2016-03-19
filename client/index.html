@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Web Carcassonne</title>
+  <link rel="stylesheet" type="text/css" href="src/css/reset-mayerweb.css">
+  <link rel="stylesheet" type="text/css" href="src/css/carcassonneGame.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <canvas id="game-board"></canvas>
+    <div id="playerName">
+      <h1>Player Name's Turn</h1>
+    </div>
+    <div id="new-tile-wrapper">
+      <button id="rotate-left" onclick="rotate('new-tile', -90);">left</button>
+      <canvas id="new-tile"></canvas>
+      <button id="rotate-right" onclick="rotate('new-tile', 90);">right</button>
+    </div>
+    <div id="zoom-btn-wrapper">
+      <button id="plus">+</button>
+      <button id="minus">-</button>
+      <button id="recentre">o</button>
+    </div>
+    <button id="confirm">NEXT</button>
+  </div>
+  <!-- Load all the JavaScript -->
+<script src="dist/bundle.js"></script>
+</body>
+
+</html>

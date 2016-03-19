@@ -1,0 +1,3 @@
+function myFunc() {
+  //some code
+}
