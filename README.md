@@ -1,4 +1,5 @@
 # CarcassonneGame
+A web implementation of the classic board game Carcassonne. 
 
 ## Developing
 
